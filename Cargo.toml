@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+image = "0.24"
+imageproc = "0.23"
+rusttype = "0.9"
+anyhow = "1.0"
